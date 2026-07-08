@@ -21,6 +21,7 @@ public class Producto {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "ID_PRODUCTO")
     private Long id;
 
     @Column(name = "NOMBRE", nullable = false, length = 30)
@@ -44,7 +45,7 @@ public class Producto {
 
 
     // FALTA ESTO
-    private void actualizar(String nombre, Categoria categoria, BigDecimal precio, Integer cantidad){
+    public void actualizar(String nombre, Categoria categoria, BigDecimal precio, Integer cantidad){
         validarDatos(nombre, categoria, precio, cantidad);
 
         this.nombre = nombre.trim();
