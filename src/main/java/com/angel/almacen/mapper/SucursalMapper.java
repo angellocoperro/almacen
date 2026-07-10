@@ -17,6 +17,7 @@ public class SucursalMapper {
                 .build();
     }
 
+
     public SucursalResponse entidadAResponse(Sucursal sucursal) {
         if (sucursal == null) return null;
 

@@ -1,11 +1,9 @@
 package com.angel.almacen.Controller;
 
 
-import com.angel.almacen.dto.productos.ProductoRequest;
-import com.angel.almacen.dto.productos.ProductoResponse;
 import com.angel.almacen.dto.socursales.SucursalRequest;
 import com.angel.almacen.dto.socursales.SucursalResponse;
-import com.angel.almacen.service.producto.Sucursal.SucursalService;
+import com.angel.almacen.service.Sucursal.SucursalService;
 import jakarta.validation.Valid;
 import jakarta.validation.constraints.Positive;
 import lombok.AllArgsConstructor;

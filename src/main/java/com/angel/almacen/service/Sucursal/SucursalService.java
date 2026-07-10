@@ -1,4 +1,4 @@
-package com.angel.almacen.service.producto.Sucursal;
+package com.angel.almacen.service.Sucursal;
 
 import com.angel.almacen.dto.productos.ProductoRequest;
 import com.angel.almacen.dto.productos.ProductoResponse;
